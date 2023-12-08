@@ -58,6 +58,13 @@ python3 -m pipx ensurepath
 
 Upgrade pipx with `python3 -m pip install --user --upgrade pipx`.
 
+- Fedora 37 or above
+
+```
+sudo dnf install pipx
+pipx ensurepath
+```
+
 ### On Windows, install via pip (requires pip 19.0 or later)
 
 ```
